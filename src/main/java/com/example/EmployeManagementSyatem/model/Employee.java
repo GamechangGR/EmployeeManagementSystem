@@ -1,8 +1,11 @@
 package com.example.EmployeManagementSyatem.model;
 
+import org.springframework.stereotype.Service;
+
 import javax.persistence.*;
 
 @Entity
+@Service
 public class Employee {
     public Employee(){
 
