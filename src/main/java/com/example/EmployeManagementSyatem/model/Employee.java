@@ -9,6 +9,7 @@ import javax.persistence.*;
 public class Employee {
     public Employee(){
 
+        System.out.println("");
     }
 
     @Id
